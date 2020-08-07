@@ -8,7 +8,8 @@
 
 List of components included in the library (might be out of date):
 
-  - None
+  - Frames
+    - A4 Company Standard Frame
 
 
 ## License
