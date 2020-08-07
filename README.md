@@ -15,7 +15,12 @@ List of components included in the library (might be out of date):
     - A4 Company Standard Frame
   - Operational Amplifiers
     - [LM258](https://www.ti.com/product/LM258)
-
+  - Passives
+    - Resistors
+	- Capacitors
+	- Inductors
+  - Supplies
+    - Whatever Eagle gives you plus a lot more
 
 ## Compatibility
 
