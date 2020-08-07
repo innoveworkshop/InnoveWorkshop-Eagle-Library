@@ -12,6 +12,8 @@ throughly documented inside Eagle, and took a lot of effort to build. Enjoy!
 List of components included in the library (might be out of date):
 
   - Connectors
+    - Standardized Pinout Connectors
+	  - PIC ICSP using a JST XH-5
     - [JST JMC](http://www.jst-mfg.com/product/detail_e.php?series=147) (borrowed
 	  from [yuhki50](https://github.com/yuhki50/eagle-pcb-library)
     - [JST PH](http://www.jst-mfg.com/product/detail_e.php?series=199) (borrowed
