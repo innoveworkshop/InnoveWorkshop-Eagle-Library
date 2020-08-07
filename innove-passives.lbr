@@ -8115,7 +8115,7 @@ grid 5.08 mm, diameter 10 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R" prefix="R">
+<deviceset name="R" prefix="R" uservalue="yes">
 <description>&lt;b&gt;Resistor&lt;/b&gt;
 
 &lt;p&gt;This is officially the most boring component ever.&lt;/p&gt;</description>
@@ -8152,7 +8152,7 @@ grid 5.08 mm, diameter 10 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" prefix="C">
+<deviceset name="C" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Ceramic Capacitor&lt;/b&gt;
 
 &lt;p&gt;Those little yellow/brown things&lt;/p&gt;</description>
