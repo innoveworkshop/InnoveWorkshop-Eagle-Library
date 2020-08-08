@@ -26,6 +26,8 @@ List of components included in the library (might be out of date):
 	  from [yuhki50](https://github.com/yuhki50/eagle-pcb-library))
   - Frames
     - A4 Company Standard Frame
+  - Microcontrollers
+    - [PIC16F18325](https://www.microchip.com/wwwproducts/en/PIC16F18325)
   - Operational Amplifiers
     - [LM258](https://www.ti.com/product/LM258)
   - Passives
