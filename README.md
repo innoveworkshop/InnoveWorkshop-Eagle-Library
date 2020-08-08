@@ -28,6 +28,10 @@ List of components included in the library (might be out of date):
     - A4 Company Standard Frame
   - Microcontrollers
     - [PIC16F18325](https://www.microchip.com/wwwproducts/en/PIC16F18325)
+  - MOSFETs
+    - [NTD18N06LT4G](http://www.farnell.com/datasheets/2355009.pdf)
+	- [IRLML6346TRPbF](http://www.farnell.com/datasheets/1911845.pdf)
+	- [BSS138P](http://www.farnell.com/datasheets/923164.pdf)
   - Operational Amplifiers
     - [LM258](https://www.ti.com/product/LM258)
   - Passives
