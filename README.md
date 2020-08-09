@@ -39,7 +39,11 @@ List of components included in the library (might be out of date):
     - [LM258](https://www.ti.com/product/LM258)
   - Passives
     - Resistors
+	  - All the usuals
 	- Capacitors
+	  - All the usuals
+	  - [MCVVT016M470DA1L](http://www.farnell.com/datasheets/2873546.pdf)
+	  - [MCVVT016M101DA1L](http://www.farnell.com/datasheets/2873546.pdf)
 	- Inductors
 	  - [Panasonic ELLCTP](http://industrial.panasonic.com/cdbs/www-data/pdf/AGM0000/AGM0000CE22.pdf)
   - Supplies
