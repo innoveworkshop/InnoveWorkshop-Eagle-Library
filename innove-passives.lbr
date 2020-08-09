@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -76,7 +76,7 @@
 
 &lt;p&gt;Our collection of the most boring components ever created.&lt;/p&gt;
 
-&lt;p&gt;By the way, we use the &lt;i&gt;superior&lt;/i&gt; european style of schematic symbols, so deal with it.&lt;/p&gt;
+&lt;p&gt;By the way, we use the IEC style of schematic symbols, which everyone knows is better, so deal with it.&lt;/p&gt;
 
 &lt;p&gt;&lt;author&gt;Created by Nathan Campos &amp;lt;nathan@innoveworkshop.com&amp;gt;&lt;/author&gt;&lt;/p&gt;</description>
 <packages>
@@ -8079,6 +8079,31 @@ grid 5.08 mm, diameter 10 mm</description>
 <text x="-3.1242" y="-3.2258" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
+<package name="ELLCTP">
+<description>&lt;b&gt;Panasonic ELLCTP Series Power Inductor&lt;/b&gt;
+
+&lt;p&gt;&lt;author&gt;Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/AGM0000/AGM0000CE22.pdf"&gt;http://industrial.panasonic.com/cdbs/www-data/pdf/AGM0000/AGM0000CE22.pdf&lt;/a&gt;&lt;/author&gt;&lt;/p&gt;</description>
+<text x="0" y="6.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-6" y1="6" x2="3.8787" y2="6" width="0.2032" layer="51"/>
+<wire x1="3.8787" y1="6" x2="6" y2="3.8787" width="0.2032" layer="51"/>
+<wire x1="6" y1="3.8787" x2="6" y2="-3.8787" width="0.2032" layer="51"/>
+<wire x1="6" y1="-3.8787" x2="3.8787" y2="-6" width="0.2032" layer="21"/>
+<wire x1="3.8787" y1="-6" x2="-3.8787" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-3.8787" y1="-6" x2="-6" y2="-3.8787" width="0.2032" layer="51"/>
+<wire x1="-6" y1="-3.8787" x2="-6" y2="6" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="4.6" width="0.2032" layer="21"/>
+<smd name="P$1" x="-4.4" y="-4.4" dx="1.95" dy="3.6" layer="1" rot="R45"/>
+<smd name="P$2" x="4.4" y="4.4" dx="1.95" dy="3.6" layer="1" rot="R45"/>
+<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-3" x2="-3" y2="-4" width="0.5" layer="21" curve="-180" cap="flat"/>
+<wire x1="4" y1="3" x2="3" y2="4" width="0.5" layer="21" curve="-180" cap="flat"/>
+<circle x="0" y="0" radius="4.8" width="0.4064" layer="21"/>
+<wire x1="-6" y1="6" x2="-6" y2="-3" width="0.2032" layer="21"/>
+<wire x1="3.8787" y1="-6" x2="-3" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-6" y1="6" x2="3" y2="6" width="0.2032" layer="21"/>
+<wire x1="6" y1="3" x2="6" y2="-3.8787" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R-EU">
@@ -8112,6 +8137,20 @@ grid 5.08 mm, diameter 10 mm</description>
 <rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="L-US">
+<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="90"/>
+<text x="0" y="-1.27" size="1.778" layer="95" rot="R180" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="3.81" size="1.778" layer="96" rot="R180" align="bottom-center">&gt;NAME</text>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8206,7 +8245,7 @@ grid 5.08 mm, diameter 10 mm</description>
 <gate name="G$1" symbol="CPOL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="E5-10" package="E5-10">
+<device name="-E5-10" package="E5-10">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -8215,7 +8254,7 @@ grid 5.08 mm, diameter 10 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="E2-5" package="E2-5">
+<device name="-E2-5" package="E2-5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -8224,7 +8263,7 @@ grid 5.08 mm, diameter 10 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="E2.5-6" package="E2,5-6">
+<device name="-E2.5-6" package="E2,5-6">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -8233,10 +8272,38 @@ grid 5.08 mm, diameter 10 mm</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="E1.8-4" package="E1,8-4">
+<device name="-E1.8-4" package="E1,8-4">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MCVVT016M101EA1L" package="PANASONIC_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L" prefix="L" uservalue="yes">
+<description>&lt;b&gt;Inductor&lt;/b&gt;
+
+&lt;p&gt;The magic beans of the electronics world.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="L-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ELLCTP" package="ELLCTP">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
