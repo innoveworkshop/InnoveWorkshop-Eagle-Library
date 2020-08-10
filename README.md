@@ -31,6 +31,8 @@ List of components included in the library (might be out of date):
 	- [SK34A](http://www.farnell.com/datasheets/2357945.pdf)
   - Frames
     - A4 Company Standard Frame
+  - Light Emitting Diodes
+    - All the usuals
   - Microcontrollers
     - [PIC16F18325](https://www.microchip.com/wwwproducts/en/PIC16F18325)
   - MOSFETs
