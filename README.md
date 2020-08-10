@@ -53,6 +53,8 @@ List of components included in the library (might be out of date):
 	  - [Panasonic ELLCTP](http://industrial.panasonic.com/cdbs/www-data/pdf/AGM0000/AGM0000CE22.pdf)
   - Supplies
     - Whatever Eagle gives you plus a lot more
+  - Switches
+    - The ubiquitous 6mm tactile switch in THT and SMT form.
 
 ## Compatibility
 
