@@ -13,6 +13,9 @@ List of components included in the library (might be out of date):
 
   - Batteries and Battery Holders
     - [Keystone 590](https://www.farnell.com/datasheets/1703960.pdf)
+  - Boards
+    - Altoids Tin
+	- Altoids Smalls Tin
   - Connectors
     - Standardized Pinout Connectors
 	  - PIC ICSP using a JST XH-5
