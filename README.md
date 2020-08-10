@@ -26,6 +26,7 @@ List of components included in the library (might be out of date):
 	  from [yuhki50](https://github.com/yuhki50/eagle-pcb-library))
     - [JST XH](http://www.jst-mfg.com/product/detail_e.php?series=277) (borrowed
 	  from [yuhki50](https://github.com/yuhki50/eagle-pcb-library))
+	- [Amphenol 10118194-0001LF](http://www.farnell.com/cad/2354948.pdf)
   - Diodes
     - [1N5817](http://www.diodes.com/datasheets/ds23001.pdf)
 	- [SK34A](http://www.farnell.com/datasheets/2357945.pdf)
