@@ -7,6 +7,22 @@ This library only contains *extremely high quality* symbols and footprints, is
 throughly documented inside Eagle, and took a lot of effort to build. Enjoy!
 
 
+## Design Rules
+
+This library comes with design rules for the following PCB manufacturers:
+
+  - SeeedStudio
+  - JLCPCB
+
+
+## CAM Jobs
+
+With this library you'll be able to generate Gerbers for the following PCB
+manufacturers:
+
+  - SeeedStudio
+
+
 ## Components
 
 List of components included in the library (might be out of date):
