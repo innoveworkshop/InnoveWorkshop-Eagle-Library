@@ -39,8 +39,8 @@ List of components included in the library (might be out of date):
   - BJTs
     - [BC547](https://www.mouser.com/datasheet/2/149/BC547-190204.pdf)
 	- [BC559](https://www.onsemi.com/pub/Collateral/BC559-D.PDF)
-	- [BD13910](https://eu.mouser.com/datasheet/2/308/BD139-1300155.pdf)
-	- [BD14016](https://eu.mouser.com/datasheet/2/308/BD136G_D-1802824.pdf)
+	- [BD139](https://eu.mouser.com/datasheet/2/308/BD139-1300155.pdf)
+	- [BD140](https://eu.mouser.com/datasheet/2/308/BD136G_D-1802824.pdf)
     - [TIP31](https://www.onsemi.com/pub/Collateral/TIP31A-D.PDF)
     - [TIP32](https://www.onsemi.com/pub/Collateral/TIP31A-D.PDF)
   - Boards

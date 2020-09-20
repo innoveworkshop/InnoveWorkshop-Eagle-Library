@@ -1125,7 +1125,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD13910">
+<deviceset name="BD139">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
@@ -1176,7 +1176,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD14016">
+<deviceset name="BD140">
 <gates>
 <gate name="G$1" symbol="PNP" x="0" y="0"/>
 </gates>
