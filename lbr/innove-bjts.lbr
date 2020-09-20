@@ -1108,7 +1108,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BC547">
+<deviceset name="BC547" prefix="Q">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
@@ -1125,7 +1125,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD139">
+<deviceset name="BD139" prefix="Q">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
@@ -1142,7 +1142,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP31">
+<deviceset name="TIP31" prefix="Q">
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
@@ -1159,7 +1159,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC559">
+<deviceset name="BC559" prefix="Q">
 <gates>
 <gate name="G$1" symbol="PNP" x="0" y="0"/>
 </gates>
@@ -1176,7 +1176,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD140">
+<deviceset name="BD140" prefix="Q">
 <gates>
 <gate name="G$1" symbol="PNP" x="0" y="0"/>
 </gates>
@@ -1193,7 +1193,7 @@ Source: www.centralsemi.com ..SOT-563PD.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP32">
+<deviceset name="TIP32" prefix="Q">
 <gates>
 <gate name="G$1" symbol="PNP" x="0" y="0"/>
 </gates>
