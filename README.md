@@ -47,6 +47,7 @@ List of components included in the library (might be out of date):
     - Altoids Tin
 	- Altoids Smalls Tin
   - Connectors
+    - [TE Connectivity FASTON](https://www.te.com/global-en/products/brands/faston.html)
     - Standardized Pinout Connectors
 	  - PIC ICSP using a JST XH-5
     - [JST JMC](http://www.jst-mfg.com/product/detail_e.php?series=147) (borrowed
