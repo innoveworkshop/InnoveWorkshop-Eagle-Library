@@ -127,7 +127,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NEON" prefix="L" uservalue="yes">
+<deviceset name="NEON" prefix="NE" uservalue="yes">
 <description>&lt;b&gt;Neon Lamp&lt;/b&gt;
 
 &lt;p&gt;For that warm, cozy, high voltage, vintage glow.&lt;/p&gt;</description>
