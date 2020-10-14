@@ -66,6 +66,11 @@ List of components included in the library (might be out of date):
 	- [SK34A](http://www.farnell.com/datasheets/2357945.pdf)
   - Frames
     - A4 Company Standard Frame
+  - Heatsinks
+	- [577102B00000G](http://www.aavid.com/products/standard/577102B00000G)
+    - [MC3326*](http://www.farnell.com/datasheets/1680181.pdf)
+  - Holes
+    - All the usuals
   - Light Emitting Diodes
     - All the usuals
   - Microcontrollers
