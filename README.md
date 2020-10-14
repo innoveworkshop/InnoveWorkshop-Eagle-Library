@@ -84,6 +84,8 @@ List of components included in the library (might be out of date):
 	- [BSS138P](http://www.farnell.com/datasheets/923164.pdf)
   - Operational Amplifiers
     - [LM258](https://www.ti.com/product/LM258)
+  - Optoelectronics
+    - T2 Neon Bulb
   - Passives
     - Resistors
 	  - All the usuals
@@ -97,6 +99,8 @@ List of components included in the library (might be out of date):
     - Whatever Eagle gives you plus a lot more
   - Switches
     - The ubiquitous 6mm tactile switch in THT and SMT form.
+  - Varistors
+    - All the bundled ones, but with an improved schematic symbol.
 
 ## Compatibility
 
