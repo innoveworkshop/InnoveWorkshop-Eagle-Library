@@ -275,6 +275,45 @@ TS-003</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="IRLR8721TRPBF" prefix="Q">
+<description>&lt;b&gt;IRLR8721TRPBF&lt;/b&gt;
+
+&lt;p&gt;Power MOSFET, N Channel, 30 V, 65 A, 0.0063 ohm, TO-252AA, Surface Mount&lt;/p&gt;
+
+&lt;p&gt;&lt;author&gt;Source: &lt;a href="http://www.farnell.com/datasheets/2043138.pdf"&gt;http://www.farnell.com/datasheets/2043138.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N7002E" prefix="Q">
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
