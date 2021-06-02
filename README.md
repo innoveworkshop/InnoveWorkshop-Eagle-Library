@@ -32,6 +32,9 @@ You'll also be able to automate some tasks with these amazing programs:
 
 ## Components
 
+**This list of components is completely out of date.** The library has expanded
+significantly and I've stopped updating the list.
+
 List of components included in the library (might be out of date):
 
   - Batteries and Battery Holders
