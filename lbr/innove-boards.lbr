@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -188,6 +188,18 @@
 <wire x1="-33.02" y1="-28.448" x2="33.02" y2="-28.448" width="0.127" layer="20"/>
 <wire x1="33.02" y1="-28.448" x2="45.72" y2="-15.748" width="0.127" layer="20" curve="90"/>
 <wire x1="45.72" y1="-15.748" x2="45.72" y2="15.748" width="0.127" layer="20"/>
+</package>
+<package name="CHINESE-6M-DIN">
+<wire x1="0" y1="0" x2="100" y2="0" width="0.127" layer="20"/>
+<wire x1="100" y1="0" x2="100" y2="83" width="0.127" layer="20"/>
+<wire x1="100" y1="83" x2="0" y2="83" width="0.127" layer="20"/>
+<wire x1="0" y1="83" x2="0" y2="0" width="0.127" layer="20"/>
+<hole x="7" y="16.5" drill="3.2"/>
+<hole x="7" y="66.5" drill="3.2"/>
+<hole x="93" y="66.5" drill="3.2"/>
+<hole x="93" y="16.5" drill="3.2"/>
+<wire x1="0" y1="14" x2="100" y2="14" width="0.127" layer="51"/>
+<wire x1="0" y1="69" x2="100" y2="69" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
