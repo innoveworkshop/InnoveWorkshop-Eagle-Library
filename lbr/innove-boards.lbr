@@ -198,8 +198,16 @@
 <hole x="7" y="66.5" drill="3.2"/>
 <hole x="93" y="66.5" drill="3.2"/>
 <hole x="93" y="16.5" drill="3.2"/>
-<wire x1="0" y1="14" x2="100" y2="14" width="0.127" layer="51"/>
-<wire x1="0" y1="69" x2="100" y2="69" width="0.127" layer="51"/>
+<wire x1="0" y1="14" x2="6" y2="14" width="0.127" layer="51"/>
+<wire x1="6" y1="14" x2="94" y2="14" width="0.127" layer="51"/>
+<wire x1="94" y1="14" x2="100" y2="14" width="0.127" layer="51"/>
+<wire x1="0" y1="69" x2="6" y2="69" width="0.127" layer="51"/>
+<wire x1="6" y1="69" x2="94" y2="69" width="0.127" layer="51"/>
+<wire x1="94" y1="69" x2="100" y2="69" width="0.127" layer="51"/>
+<wire x1="6" y1="0" x2="6" y2="14" width="0.127" layer="51"/>
+<wire x1="94" y1="0" x2="94" y2="14" width="0.127" layer="51"/>
+<wire x1="6" y1="83" x2="6" y2="69" width="0.127" layer="51"/>
+<wire x1="94" y1="69" x2="94" y2="83" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
