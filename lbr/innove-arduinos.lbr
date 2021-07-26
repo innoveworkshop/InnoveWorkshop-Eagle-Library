@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1955,6 +1955,144 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <pin name="SCL" x="15.24" y="50.8" length="short" rot="R180"/>
 <pin name="IOREF" x="-15.24" y="53.34" length="short"/>
 </symbol>
+<symbol name="ARDUINO-NANO-SENSIBLE">
+<description>&lt;b&gt;Arduino Nano V3.0&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Overview:&lt;/b&gt;&lt;br&gt;
+
+The Arduino Nano is a small, complete, and breadboard-friendly board based on the ATmega328 (Arduino Nano 3.x) or ATmega168 (Arduino Nano 2.x). It has more or less the same functionality of the Arduino Duemilanove, but in a different package. It lacks only a DC power jack, and works with a Mini-B USB cable instead of a standard one.&lt;br&gt;
+The Nano was designed and is being produced by Gravitech.&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Specifications:&lt;/b&gt;
+&lt;table border="1" style="width:auto"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Microcontroller&lt;/td&gt;
+    &lt;td&gt;Atmel ATmega168 or ATmega328&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Operating Voltage (logic level)&lt;/td&gt;
+    &lt;td&gt;5 V&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Input Voltage (recommended)&lt;/td&gt;
+    &lt;td&gt;7-12 V&lt;/td&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Input Voltage (limits)&lt;/td&gt;
+    &lt;td&gt;6-20 V&lt;/td&gt;		
+  &lt;tr&gt;
+    &lt;td&gt;Digital I/O Pins&lt;/td&gt;
+    &lt;td&gt;14 (of which 6 provide PWM output)&lt;/td&gt;		
+  &lt;tr&gt;
+    &lt;td&gt;Analog Input Pins&lt;/td&gt;
+    &lt;td&gt;8&lt;/td&gt;
+  &lt;tr&gt;
+    &lt;td&gt;DC Current per I/O Pin&lt;/td&gt;
+    &lt;td&gt;40 mA&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Flash Memory&lt;/td&gt;
+    &lt;td&gt;16 KB (ATmega168) or 32 KB (ATmega328) of which 2 KB used by bootloader&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;SRAM&lt;/td&gt;
+    &lt;td&gt;1 KB (ATmega168) or 2 KB (ATmega328)&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;EEPROM&lt;/td&gt;
+    &lt;td&gt;512 bytes (ATmega168) or 1 KB (ATmega328)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Clock Speed&lt;/td&gt;
+    &lt;td&gt;16 MHz&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Dimensions&lt;/td&gt;
+    &lt;td&gt;0.73" x 1.70"&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Length&lt;/td&gt;
+    &lt;td&gt;45 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Width&lt;/td&gt;
+    &lt;td&gt;18 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Weigth&lt;/td&gt;
+    &lt;td&gt;5 g&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Power:&lt;/b&gt;&lt;br&gt;
+
+The Arduino Nano can be powered via the Mini-B USB connection, 6-20V unregulated external power supply (pin 30), or 5V regulated external power supply (pin 27).&lt;br&gt;
+The power source is automatically selected to the highest voltage source.&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Memory:&lt;/b&gt;&lt;br&gt;
+
+The ATmega168 has 16 KB of flash memory for storing code (of which 2 KB is used for the bootloader); the ATmega328 has 32 KB, (also with 2 KB used for the bootloader).&lt;br&gt;
+The ATmega168 has 1 KB of SRAM and 512 bytes of EEPROM (which can be read and written with the EEPROM library); the ATmega328 has 2 KB of SRAM and 1 KB of EEPROM.&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Input and Output:&lt;/b&gt;&lt;br&gt;
+
+Each of the 14 digital pins on the Nano can be used as an input or output, using pinMode(), digitalWrite(), and digitalRead() functions.&lt;br&gt;
+They operate at 5 volts.&lt;br&gt;
+Each pin can provide or receive a maximum of 40 mA and has an internal pull-up resistor (disconnected by default) of 20-50 kOhms. In addition, some pins have specialized functions.&lt;br&gt;&lt;br&gt;
+
+&lt;a href="https://www.arduino.cc/en/Main/ArduinoBoardNano"&gt;Visit Arduino - ArduinoBoardNano&lt;/a&gt;</description>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<pin name="TX1" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="RX0" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="!RESET@1" x="-17.78" y="5.08" length="short" direction="in"/>
+<pin name="GND@1" x="-5.08" y="-22.86" length="short" direction="pwr" rot="R90"/>
+<pin name="D2" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="D3" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="D4" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="D5" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="D6" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="D7" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="D8" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="D9" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="D10" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="D11" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="D12" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="D13" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="3V3" x="7.62" y="22.86" length="short" direction="pwr" rot="R270"/>
+<pin name="AREF" x="-17.78" y="12.7" length="short" direction="in"/>
+<pin name="A0" x="-17.78" y="-17.78" length="short"/>
+<pin name="A1" x="-17.78" y="-15.24" length="short"/>
+<pin name="A2" x="-17.78" y="-12.7" length="short"/>
+<pin name="A3" x="-17.78" y="-10.16" length="short"/>
+<pin name="A4" x="-17.78" y="-7.62" length="short"/>
+<pin name="A5" x="-17.78" y="-5.08" length="short"/>
+<pin name="A6" x="-17.78" y="-2.54" length="short"/>
+<pin name="A7" x="-17.78" y="0" length="short"/>
+<pin name="5V" x="-7.62" y="22.86" length="short" direction="pwr" rot="R270"/>
+<pin name="!RESET@2" x="-17.78" y="7.62" length="short" direction="in"/>
+<pin name="GND@2" x="5.08" y="-22.86" length="short" direction="pwr" rot="R90"/>
+<pin name="VIN" x="-17.78" y="15.24" length="short" direction="pwr"/>
+<wire x1="2.54" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-21.59" x2="2.54" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-21.59" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<text x="-15.24" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="-5.08" y1="20.32" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<circle x="-2.54" y="16.51" radius="0.762" width="0.254" layer="94"/>
+<circle x="0" y="19.05" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="19.05" radius="0.762" width="0.254" layer="94"/>
+<circle x="-2.54" y="19.05" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="16.51" radius="0.762" width="0.254" layer="94"/>
+<circle x="0" y="16.51" radius="0.762" width="0.254" layer="94"/>
+<text x="0" y="-1.27" size="1.778" layer="94" rot="R90" align="center">Arduino Nano</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO-NANO" prefix="M">
@@ -2665,6 +2803,136 @@ http://www.ladyada.net/library/pcb/eaglelibrary.html</description>
 <connect gate="B1" pin="SCL" pad="SCL"/>
 <connect gate="B1" pin="SDA" pad="SDA"/>
 <connect gate="B1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ARDUINO-NANO-ALT" prefix="M">
+<description>&lt;b&gt;Arduino Nano V3.0&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Overview:&lt;/b&gt;&lt;br&gt;
+
+&lt;p&gt;The Arduino Nano is a small, complete, and breadboard-friendly board based on the ATmega328 (Arduino Nano 3.x) or ATmega168 (Arduino Nano 2.x). &lt;br&gt;It has more or less the same functionality of the Arduino Duemilanove, but in a different package.&lt;br&gt;
+It lacks only a DC power jack, and works with a Mini-B USB cable instead of a standard one.&lt;br&gt;
+The Nano was designed and is being produced by Gravitech.&lt;/p&gt;&lt;br&gt;
+
+&lt;b&gt;Specifications:&lt;/b&gt;
+&lt;table border="1" style="width:auto"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Microcontroller&lt;/td&gt;
+    &lt;td&gt;Atmel ATmega168 or ATmega328&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Operating Voltage (logic level)&lt;/td&gt;
+    &lt;td&gt;5 V&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Input Voltage (recommended)&lt;/td&gt;
+    &lt;td&gt;7-12 V&lt;/td&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Input Voltage (limits)&lt;/td&gt;
+    &lt;td&gt;6-20 V&lt;/td&gt;		
+  &lt;tr&gt;
+    &lt;td&gt;Digital I/O Pins&lt;/td&gt;
+    &lt;td&gt;14 (of which 6 provide PWM output)&lt;/td&gt;		
+  &lt;tr&gt;
+    &lt;td&gt;Analog Input Pins&lt;/td&gt;
+    &lt;td&gt;8&lt;/td&gt;
+  &lt;tr&gt;
+    &lt;td&gt;DC Current per I/O Pin&lt;/td&gt;
+    &lt;td&gt;40 mA&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Flash Memory&lt;/td&gt;
+    &lt;td&gt;16 KB (ATmega168) or 32 KB (ATmega328) of which 2 KB used by bootloader&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;SRAM&lt;/td&gt;
+    &lt;td&gt;1 KB (ATmega168) or 2 KB (ATmega328)&lt;/td&gt;		
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;EEPROM&lt;/td&gt;
+    &lt;td&gt;512 bytes (ATmega168) or 1 KB (ATmega328)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Clock Speed&lt;/td&gt;
+    &lt;td&gt;16 MHz&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Dimensions&lt;/td&gt;
+    &lt;td&gt;0.73" x 1.70"&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Length&lt;/td&gt;
+    &lt;td&gt;45 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Width&lt;/td&gt;
+    &lt;td&gt;18 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Weigth&lt;/td&gt;
+    &lt;td&gt;5 g&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;b&gt;Power:&lt;/b&gt;&lt;br&gt;
+
+&lt;p&gt;The Arduino Nano can be powered via the Mini-B USB connection, 6-20V unregulated external power supply (pin 30), or 5V regulated external power supply (pin 27).&lt;br&gt;
+The power source is automatically selected to the highest voltage source.&lt;/p&gt;&lt;br&gt;
+
+&lt;b&gt;Memory:&lt;/b&gt;&lt;br&gt;
+
+&lt;p&gt;The ATmega168 has 16 KB of flash memory for storing code (of which 2 KB is used for the bootloader); the ATmega328 has 32 KB, (also with 2 KB used for the bootloader).&lt;br&gt;
+The ATmega168 has 1 KB of SRAM and 512 bytes of EEPROM (which can be read and written with the EEPROM library); the ATmega328 has 2 KB of SRAM and 1 KB of EEPROM.&lt;/p&gt;&lt;br&gt;
+
+&lt;b&gt;Input and Output:&lt;/b&gt;&lt;br&gt;
+
+&lt;p&gt;Each of the 14 digital pins on the Nano can be used as an input or output, using pinMode(), digitalWrite(), and digitalRead() functions.&lt;br&gt;
+They operate at 5 volts.&lt;br&gt;
+Each pin can provide or receive a maximum of 40 mA and has an internal pull-up resistor (disconnected by default) of 20-50 kOhms. In addition, some pins have specialized functions.&lt;/p&gt;&lt;br&gt;
+
+&lt;a href="https://www.arduino.cc/en/Main/ArduinoBoardNano"&gt;Visit Arduino - ArduinoBoardNano&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ARDUINO-NANO-SENSIBLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ARDUINO-NANO">
+<connects>
+<connect gate="G$1" pin="!RESET@1" pad="13"/>
+<connect gate="G$1" pin="!RESET@2" pad="18"/>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="5V" pad="12"/>
+<connect gate="G$1" pin="A0" pad="4"/>
+<connect gate="G$1" pin="A1" pad="5"/>
+<connect gate="G$1" pin="A2" pad="6"/>
+<connect gate="G$1" pin="A3" pad="7"/>
+<connect gate="G$1" pin="A4" pad="8"/>
+<connect gate="G$1" pin="A5" pad="9"/>
+<connect gate="G$1" pin="A6" pad="10"/>
+<connect gate="G$1" pin="A7" pad="11"/>
+<connect gate="G$1" pin="AREF" pad="3"/>
+<connect gate="G$1" pin="D10" pad="28"/>
+<connect gate="G$1" pin="D11" pad="29"/>
+<connect gate="G$1" pin="D12" pad="30"/>
+<connect gate="G$1" pin="D13" pad="1"/>
+<connect gate="G$1" pin="D2" pad="20"/>
+<connect gate="G$1" pin="D3" pad="21"/>
+<connect gate="G$1" pin="D4" pad="22"/>
+<connect gate="G$1" pin="D5" pad="23"/>
+<connect gate="G$1" pin="D6" pad="24"/>
+<connect gate="G$1" pin="D7" pad="25"/>
+<connect gate="G$1" pin="D8" pad="26"/>
+<connect gate="G$1" pin="D9" pad="27"/>
+<connect gate="G$1" pin="GND@1" pad="14"/>
+<connect gate="G$1" pin="GND@2" pad="19"/>
+<connect gate="G$1" pin="RX0" pad="17"/>
+<connect gate="G$1" pin="TX1" pad="16"/>
+<connect gate="G$1" pin="VIN" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
