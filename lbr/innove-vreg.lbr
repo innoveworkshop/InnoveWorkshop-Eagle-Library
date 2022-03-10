@@ -733,6 +733,24 @@ grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="78*" prefix="U">
+<gates>
+<gate name="G$1" symbol="78XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO220AV">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="05"/>
+<technology name="33"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
