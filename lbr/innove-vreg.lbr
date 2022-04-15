@@ -516,6 +516,47 @@ grid 2.54 mm</description>
 <rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
 <hole x="0" y="11.176" drill="3.302"/>
 </package>
+<package name="SC70-5L">
+<description>&lt;b&gt;SC-70 Package&lt;/b&gt;</description>
+<wire x1="1.1" y1="-0.5" x2="-1.1" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="-1.1" y1="-0.5" x2="-1.1" y2="0.5" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="0.5" x2="1.1" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="1.1" y1="0.5" x2="1.1" y2="-0.5" width="0.2032" layer="21"/>
+<circle x="-0.65" y="-0.2" radius="0.15" width="0" layer="21"/>
+<smd name="4" x="0.65" y="0.85" dx="0.35" dy="0.8" layer="1"/>
+<smd name="5" x="-0.65" y="0.85" dx="0.35" dy="0.8" layer="1"/>
+<smd name="1" x="-0.65" y="-0.85" dx="0.35" dy="0.8" layer="1"/>
+<smd name="2" x="0" y="-0.85" dx="0.35" dy="0.8" layer="1"/>
+<smd name="3" x="0.65" y="-0.85" dx="0.35" dy="0.8" layer="1"/>
+<text x="-1.2" y="1.35" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.2" y="-2.35" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="0.5" y1="0.6" x2="0.8" y2="1.1" layer="51"/>
+<rectangle x1="-0.8" y1="0.6" x2="-0.5" y2="1.1" layer="51"/>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.6" layer="51"/>
+<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.6" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.6" layer="51"/>
+</package>
+<package name="TSOP-5">
+<description>&lt;b&gt;TSOP-5&lt;/b&gt; PLASTIC PACKAGE CASE 483-02&lt;p&gt;
+Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF</description>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.1016" layer="21"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.1016" layer="21"/>
+<circle x="-1.075" y="-0.5" radius="0.2136" width="0" layer="21"/>
+<smd name="1" x="-0.99" y="-1.2" dx="0.7" dy="1" layer="1"/>
+<smd name="2" x="0" y="-1.2" dx="0.7" dy="1" layer="1"/>
+<smd name="3" x="0.99" y="-1.2" dx="0.7" dy="1" layer="1"/>
+<smd name="4" x="0.99" y="1.2" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="5" x="-0.99" y="1.2" dx="0.7" dy="1" layer="1" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="0.825" x2="-0.7" y2="1.5" layer="51"/>
+<rectangle x1="0.7" y1="0.825" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.825" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.825" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.825" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="78XX">
@@ -747,6 +788,53 @@ grid 2.54 mm</description>
 <technologies>
 <technology name="05"/>
 <technology name="33"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCP716BC" prefix="U">
+<gates>
+<gate name="G$1" symbol="78XX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SN500T1G" package="SC70-5L">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SN345T1G" package="SC70-5L">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SN330T1G" package="SC70-5L">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SN300T1G" package="SC70-5L">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
