@@ -3,8 +3,10 @@
 ~*
 *~
 
-# Eagle
-# Backup files
+# Eagle temporary files.
+bmp.scr
+
+# Eagle backup files
 *.s#?
 *.b#?
 *.l#?
