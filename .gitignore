@@ -5,6 +5,7 @@
 
 # Eagle temporary files.
 bmp.scr
+dxfimp.scr
 
 # Eagle backup files
 *.s#?
