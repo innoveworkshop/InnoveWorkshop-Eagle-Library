@@ -923,29 +923,28 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 </packages>
 <symbols>
 <symbol name="LCD-16X2">
-<wire x1="-7.62" y1="22.86" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-20.32" x2="5.08" y2="22.86" width="0.254" layer="94"/>
-<wire x1="5.08" y1="22.86" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
-<text x="-7.62" y="23.368" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;Value</text>
-<text x="3.048" y="-6.858" size="2.286" layer="94" ratio="20" rot="R90">16x2 LCD</text>
-<pin name="A" x="-10.16" y="-15.24" visible="pin" length="short" direction="pwr"/>
-<pin name="DB0" x="-10.16" y="5.08" visible="pin" length="short"/>
-<pin name="DB1" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="DB2" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="DB3" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="DB4" x="-10.16" y="-5.08" visible="pin" length="short"/>
-<pin name="DB5" x="-10.16" y="-7.62" visible="pin" length="short"/>
-<pin name="DB6" x="-10.16" y="-10.16" visible="pin" length="short"/>
-<pin name="DB7" x="-10.16" y="-12.7" visible="pin" length="short"/>
-<pin name="E" x="-10.16" y="7.62" visible="pin" length="short" direction="in"/>
-<pin name="K" x="-10.16" y="-17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="R/W" x="-10.16" y="10.16" visible="pin" length="short" direction="in"/>
-<pin name="RS" x="-10.16" y="12.7" visible="pin" length="short" direction="in"/>
-<pin name="VDD" x="-10.16" y="17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="VO" x="-10.16" y="15.24" visible="pin" length="short"/>
-<pin name="VSS" x="-10.16" y="20.32" visible="pin" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="-10.16" y="18.288" size="1.778" layer="95">&gt;Name</text>
+<text x="0" y="-1.27" size="2.286" layer="94" ratio="20" rot="R90" align="center">16x2 LCD</text>
+<pin name="A" x="12.7" y="-12.7" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="DB0" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="DB1" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="DB2" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="DB3" x="-12.7" y="5.08" visible="pin" length="short"/>
+<pin name="DB4" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="DB5" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="DB6" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="DB7" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="E" x="-12.7" y="-10.16" visible="pin" length="short" direction="in"/>
+<pin name="K" x="12.7" y="-15.24" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="R/W" x="-12.7" y="-15.24" visible="pin" length="short" direction="in"/>
+<pin name="RS" x="-12.7" y="-7.62" visible="pin" length="short" direction="in"/>
+<pin name="VCC" x="0" y="20.32" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="VO" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
 </symbol>
 <symbol name="LCD-G12864">
 <wire x1="-7.62" y1="25.4" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
@@ -993,29 +992,28 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <pin name="VLED" x="-10.16" y="-7.62" length="short"/>
 </symbol>
 <symbol name="LCD-8X2">
-<wire x1="-7.62" y1="22.86" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-20.32" x2="5.08" y2="22.86" width="0.254" layer="94"/>
-<wire x1="5.08" y1="22.86" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
-<text x="-7.62" y="23.368" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-22.86" size="1.778" layer="96">&gt;Value</text>
-<text x="3.302" y="0" size="2.286" layer="94" ratio="20" rot="R90" align="bottom-center">8x2 LCD</text>
-<pin name="A" x="-10.16" y="-15.24" visible="pin" length="short" direction="pwr"/>
-<pin name="DB0" x="-10.16" y="5.08" visible="pin" length="short"/>
-<pin name="DB1" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="DB2" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="DB3" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="DB4" x="-10.16" y="-5.08" visible="pin" length="short"/>
-<pin name="DB5" x="-10.16" y="-7.62" visible="pin" length="short"/>
-<pin name="DB6" x="-10.16" y="-10.16" visible="pin" length="short"/>
-<pin name="DB7" x="-10.16" y="-12.7" visible="pin" length="short"/>
-<pin name="E" x="-10.16" y="7.62" visible="pin" length="short" direction="in"/>
-<pin name="K" x="-10.16" y="-17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="R/W" x="-10.16" y="10.16" visible="pin" length="short" direction="in"/>
-<pin name="RS" x="-10.16" y="12.7" visible="pin" length="short" direction="in"/>
-<pin name="VDD" x="-10.16" y="17.78" visible="pin" length="short" direction="pwr"/>
-<pin name="VO" x="-10.16" y="15.24" visible="pin" length="short"/>
-<pin name="VSS" x="-10.16" y="20.32" visible="pin" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="-10.16" y="18.288" size="1.778" layer="95">&gt;Name</text>
+<text x="0" y="0" size="2.286" layer="94" ratio="20" rot="R90" align="center">8x2 LCD</text>
+<pin name="A" x="12.7" y="-12.7" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="DB0" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="DB1" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="DB2" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="DB3" x="-12.7" y="5.08" visible="pin" length="short"/>
+<pin name="DB4" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="DB5" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="DB6" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="DB7" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="E" x="-12.7" y="-10.16" visible="pin" length="short" direction="in"/>
+<pin name="K" x="12.7" y="-15.24" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="R/W" x="-12.7" y="-15.24" visible="pin" length="short" direction="in"/>
+<pin name="RS" x="-12.7" y="-7.62" visible="pin" length="short" direction="in"/>
+<pin name="VCC" x="0" y="20.32" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="VO" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-22.86" visible="pin" length="short" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1037,12 +1035,12 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <connect gate="G$1" pin="DB6" pad="13"/>
 <connect gate="G$1" pin="DB7" pad="14"/>
 <connect gate="G$1" pin="E" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="K" pad="16"/>
 <connect gate="G$1" pin="R/W" pad="5"/>
 <connect gate="G$1" pin="RS" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$1" pin="VO" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1060,12 +1058,12 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <connect gate="G$1" pin="DB6" pad="13"/>
 <connect gate="G$1" pin="DB7" pad="14"/>
 <connect gate="G$1" pin="E" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="K" pad="16"/>
 <connect gate="G$1" pin="R/W" pad="5"/>
 <connect gate="G$1" pin="RS" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$1" pin="VO" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1083,12 +1081,12 @@ For Reference, see Amotec Display part ADM0802A (http://amotec-display.com/pdf/A
 <connect gate="G$1" pin="DB6" pad="13"/>
 <connect gate="G$1" pin="DB7" pad="14"/>
 <connect gate="G$1" pin="E" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="K" pad="16"/>
 <connect gate="G$1" pin="R/W" pad="5"/>
 <connect gate="G$1" pin="RS" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$1" pin="VO" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1202,12 +1200,12 @@ Schematic element and footprint production proven but could use some touching up
 <connect gate="G$1" pin="DB6" pad="13"/>
 <connect gate="G$1" pin="DB7" pad="14"/>
 <connect gate="G$1" pin="E" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="K" pad="16"/>
 <connect gate="G$1" pin="R/W" pad="5"/>
 <connect gate="G$1" pin="RS" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$1" pin="VO" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1225,12 +1223,12 @@ Schematic element and footprint production proven but could use some touching up
 <connect gate="G$1" pin="DB6" pad="13"/>
 <connect gate="G$1" pin="DB7" pad="14"/>
 <connect gate="G$1" pin="E" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="K" pad="16"/>
 <connect gate="G$1" pin="R/W" pad="5"/>
 <connect gate="G$1" pin="RS" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
 <connect gate="G$1" pin="VO" pad="3"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
