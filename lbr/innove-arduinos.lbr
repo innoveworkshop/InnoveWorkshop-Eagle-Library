@@ -725,9 +725,9 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <text x="64.135" y="49.53" size="1.016" layer="21" font="vector" rot="R180">0</text>
 <text x="31.623" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
 <text x="50.927" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
-<hole x="15.24" y="50.8" drill="3.2"/>
-<hole x="66.04" y="35.56" drill="3.2"/>
-<hole x="13.97" y="2.54" drill="3.2"/>
+<circle x="15.24" y="50.8" radius="1.606434375" width="0.127" layer="48"/>
+<circle x="66.04" y="35.56" radius="1.626390625" width="0.127" layer="48"/>
+<circle x="13.97" y="2.54" radius="1.606434375" width="0.127" layer="48"/>
 </package>
 <package name="ARDUINO-BPLACE">
 <wire x1="0" y1="0" x2="66.04" y2="0" width="0" layer="22"/>
@@ -805,9 +805,9 @@ Make a shield with ease, this package has all the named pins as well as the two 
 <text x="64.135" y="49.53" size="1.016" layer="21" font="vector" rot="R180">0</text>
 <text x="31.623" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
 <text x="50.927" y="52.07" size="1.016" layer="21" font="vector">Digital I/O</text>
-<hole x="15.24" y="50.8" drill="3.2"/>
-<hole x="66.04" y="35.56" drill="3.2"/>
-<hole x="13.97" y="2.54" drill="3.2"/>
+<circle x="15.24" y="50.8" radius="1.606434375" width="0.127" layer="21"/>
+<circle x="66.04" y="35.56" radius="1.626390625" width="0.127" layer="21"/>
+<circle x="13.97" y="2.54" radius="1.54501875" width="0.127" layer="21"/>
 </package>
 <package name="ARDUINO-NOHOLE">
 <wire x1="0" y1="0" x2="66.04" y2="0" width="0" layer="22"/>
