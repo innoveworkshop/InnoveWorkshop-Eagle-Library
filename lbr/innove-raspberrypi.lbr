@@ -1910,46 +1910,46 @@
 <wire x1="-10.5" y1="25.5" x2="10.5" y2="25.5" width="0.1524" layer="21"/>
 <text x="-10.414" y="-28.067" size="1.778" layer="25">&gt;NAME</text>
 <text x="0" y="-20.32" size="1.778" layer="27" align="bottom-center">&gt;VALUE</text>
-<smd name="P$1" x="-10" y="24.13" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$2" x="-10" y="21.59" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$3" x="-10" y="19.05" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$4" x="-10" y="16.51" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$5" x="-10" y="13.97" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$6" x="-10" y="11.43" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$7" x="-10" y="8.89" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$8" x="-10" y="6.35" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$9" x="-10" y="3.81" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$10" x="-10" y="1.27" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$11" x="-10" y="-1.27" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$12" x="-10" y="-3.81" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$13" x="-10" y="-6.35" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$14" x="-10" y="-8.89" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$15" x="-10" y="-11.43" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$16" x="-10" y="-13.97" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$17" x="-10" y="-16.51" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$18" x="-10" y="-19.05" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$19" x="-10" y="-21.59" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$20" x="-10" y="-24.13" dx="3.5" dy="1.7" layer="1"/>
-<smd name="P$21" x="10" y="-24.13" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$22" x="10" y="-21.59" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$23" x="10" y="-19.05" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$24" x="10" y="-16.51" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$25" x="10" y="-13.97" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$26" x="10" y="-11.43" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$27" x="10" y="-8.89" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$28" x="10" y="-6.35" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$29" x="10" y="-3.81" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$30" x="10" y="-1.27" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$31" x="10" y="1.27" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$32" x="10" y="3.81" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$33" x="10" y="6.35" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$34" x="10" y="8.89" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$35" x="10" y="11.43" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$36" x="10" y="13.97" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$37" x="10" y="16.51" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$38" x="10" y="19.05" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$39" x="10" y="21.59" dx="3.5" dy="1.7" layer="1" rot="R180"/>
-<smd name="P$40" x="10" y="24.13" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="1" x="-10" y="24.13" dx="3.5" dy="1.7" layer="1"/>
+<smd name="2" x="-10" y="21.59" dx="3.5" dy="1.7" layer="1"/>
+<smd name="3" x="-10" y="19.05" dx="3.5" dy="1.7" layer="1"/>
+<smd name="4" x="-10" y="16.51" dx="3.5" dy="1.7" layer="1"/>
+<smd name="5" x="-10" y="13.97" dx="3.5" dy="1.7" layer="1"/>
+<smd name="6" x="-10" y="11.43" dx="3.5" dy="1.7" layer="1"/>
+<smd name="7" x="-10" y="8.89" dx="3.5" dy="1.7" layer="1"/>
+<smd name="8" x="-10" y="6.35" dx="3.5" dy="1.7" layer="1"/>
+<smd name="9" x="-10" y="3.81" dx="3.5" dy="1.7" layer="1"/>
+<smd name="10" x="-10" y="1.27" dx="3.5" dy="1.7" layer="1"/>
+<smd name="11" x="-10" y="-1.27" dx="3.5" dy="1.7" layer="1"/>
+<smd name="12" x="-10" y="-3.81" dx="3.5" dy="1.7" layer="1"/>
+<smd name="13" x="-10" y="-6.35" dx="3.5" dy="1.7" layer="1"/>
+<smd name="14" x="-10" y="-8.89" dx="3.5" dy="1.7" layer="1"/>
+<smd name="15" x="-10" y="-11.43" dx="3.5" dy="1.7" layer="1"/>
+<smd name="16" x="-10" y="-13.97" dx="3.5" dy="1.7" layer="1"/>
+<smd name="17" x="-10" y="-16.51" dx="3.5" dy="1.7" layer="1"/>
+<smd name="18" x="-10" y="-19.05" dx="3.5" dy="1.7" layer="1"/>
+<smd name="19" x="-10" y="-21.59" dx="3.5" dy="1.7" layer="1"/>
+<smd name="20" x="-10" y="-24.13" dx="3.5" dy="1.7" layer="1"/>
+<smd name="21" x="10" y="-24.13" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="22" x="10" y="-21.59" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="23" x="10" y="-19.05" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="24" x="10" y="-16.51" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="25" x="10" y="-13.97" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="26" x="10" y="-11.43" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="27" x="10" y="-8.89" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="28" x="10" y="-6.35" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="29" x="10" y="-3.81" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="30" x="10" y="-1.27" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="31" x="10" y="1.27" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="32" x="10" y="3.81" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="33" x="10" y="6.35" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="34" x="10" y="8.89" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="35" x="10" y="11.43" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="36" x="10" y="13.97" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="37" x="10" y="16.51" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="38" x="10" y="19.05" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="39" x="10" y="21.59" dx="3.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="40" x="10" y="24.13" dx="3.5" dy="1.7" layer="1" rot="R180"/>
 <hole x="-2.725" y="24" drill="1.8"/>
 <hole x="2.725" y="24" drill="1.8"/>
 <hole x="-2.425" y="20.97" drill="1.5"/>
@@ -15849,39 +15849,39 @@
 <devices>
 <device name="" package="PICO-W-PKG-SMD">
 <connects>
-<connect gate="G$1" pin="3V3(OUT)" pad="P$36"/>
-<connect gate="G$1" pin="3V3_EN" pad="P$37"/>
-<connect gate="G$1" pin="ADC_REF" pad="P$35"/>
-<connect gate="G$1" pin="GND" pad="P$3 P$8 P$13 P$18 P$23 P$28 P$33 P$38"/>
-<connect gate="G$1" pin="GP0" pad="P$1"/>
-<connect gate="G$1" pin="GP1" pad="P$2"/>
-<connect gate="G$1" pin="GP10" pad="P$14"/>
-<connect gate="G$1" pin="GP11" pad="P$15"/>
-<connect gate="G$1" pin="GP12" pad="P$16"/>
-<connect gate="G$1" pin="GP13" pad="P$17"/>
-<connect gate="G$1" pin="GP14" pad="P$19"/>
-<connect gate="G$1" pin="GP15" pad="P$20"/>
-<connect gate="G$1" pin="GP16" pad="P$21"/>
-<connect gate="G$1" pin="GP17" pad="P$22"/>
-<connect gate="G$1" pin="GP18" pad="P$24"/>
-<connect gate="G$1" pin="GP19" pad="P$25"/>
-<connect gate="G$1" pin="GP2" pad="P$4"/>
-<connect gate="G$1" pin="GP20" pad="P$26"/>
-<connect gate="G$1" pin="GP21" pad="P$27"/>
-<connect gate="G$1" pin="GP22" pad="P$29"/>
-<connect gate="G$1" pin="GP26" pad="P$31"/>
-<connect gate="G$1" pin="GP27" pad="P$32"/>
-<connect gate="G$1" pin="GP28" pad="P$34"/>
-<connect gate="G$1" pin="GP3" pad="P$5"/>
-<connect gate="G$1" pin="GP4" pad="P$6"/>
-<connect gate="G$1" pin="GP5" pad="P$7"/>
-<connect gate="G$1" pin="GP6" pad="P$9"/>
-<connect gate="G$1" pin="GP7" pad="P$10"/>
-<connect gate="G$1" pin="GP8" pad="P$11"/>
-<connect gate="G$1" pin="GP9" pad="P$12"/>
-<connect gate="G$1" pin="RUN" pad="P$30"/>
-<connect gate="G$1" pin="VBUS" pad="P$40"/>
-<connect gate="G$1" pin="VSYS" pad="P$39"/>
+<connect gate="G$1" pin="3V3(OUT)" pad="36"/>
+<connect gate="G$1" pin="3V3_EN" pad="37"/>
+<connect gate="G$1" pin="ADC_REF" pad="35"/>
+<connect gate="G$1" pin="GND" pad="3 8 13 18 23 28 33 38"/>
+<connect gate="G$1" pin="GP0" pad="1"/>
+<connect gate="G$1" pin="GP1" pad="2"/>
+<connect gate="G$1" pin="GP10" pad="14"/>
+<connect gate="G$1" pin="GP11" pad="15"/>
+<connect gate="G$1" pin="GP12" pad="16"/>
+<connect gate="G$1" pin="GP13" pad="17"/>
+<connect gate="G$1" pin="GP14" pad="19"/>
+<connect gate="G$1" pin="GP15" pad="20"/>
+<connect gate="G$1" pin="GP16" pad="21"/>
+<connect gate="G$1" pin="GP17" pad="22"/>
+<connect gate="G$1" pin="GP18" pad="24"/>
+<connect gate="G$1" pin="GP19" pad="25"/>
+<connect gate="G$1" pin="GP2" pad="4"/>
+<connect gate="G$1" pin="GP20" pad="26"/>
+<connect gate="G$1" pin="GP21" pad="27"/>
+<connect gate="G$1" pin="GP22" pad="29"/>
+<connect gate="G$1" pin="GP26" pad="31"/>
+<connect gate="G$1" pin="GP27" pad="32"/>
+<connect gate="G$1" pin="GP28" pad="34"/>
+<connect gate="G$1" pin="GP3" pad="5"/>
+<connect gate="G$1" pin="GP4" pad="6"/>
+<connect gate="G$1" pin="GP5" pad="7"/>
+<connect gate="G$1" pin="GP6" pad="9"/>
+<connect gate="G$1" pin="GP7" pad="10"/>
+<connect gate="G$1" pin="GP8" pad="11"/>
+<connect gate="G$1" pin="GP9" pad="12"/>
+<connect gate="G$1" pin="RUN" pad="30"/>
+<connect gate="G$1" pin="VBUS" pad="40"/>
+<connect gate="G$1" pin="VSYS" pad="39"/>
 </connects>
 <technologies>
 <technology name=""/>
